@@ -25,7 +25,7 @@ describe('Fix the Scope', function() {
       expect(window.bestCustomer).to.equal('not bob');
     });
   });
-
+ 
   describe('overwriteBestCustomer()', function() {
     it('overwrites the best customer', function() {
       overwriteBestCustomer('maybe bob');
